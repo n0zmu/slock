@@ -1,0 +1,2 @@
+# slock
+My slock config.

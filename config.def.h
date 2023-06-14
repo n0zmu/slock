@@ -1,0 +1,31 @@
+/* user and group to drop privileges to */
+static const char *user  = "n0zmu";
+static const char *group = "n0zmu";
+
+static const char *colorname[NUMCOLS] = {
+	[BACKGROUND] = "#222222",
+	[INIT] =   "#FEFF86",     /* after initialization */
+	[INPUT] =  "#99FFCD",   /* during input */
+	[FAILED] = "#FF5D5D",   /* wrong password */
+};
+
+/* treat a cleared input like a wrong password (color) */
+static const int failonclear = 1;
+
+static const int logosize = 18.75;
+static const int logow = 12;
+static const int logoh = 6;
+
+static XRectangle rectangles[9] = {
+   /* x    y   w   h */
+    { 0,   3,   1,   3 },
+    { 1,   3,   2,   1 },
+    { 0,   5,   8,   1 },
+    { 3,   0,   1,   5 },
+    { 5,   3,   1,   2 },
+    { 7,   3,   1,   2 },
+    { 8,   3,   4,   1 },
+    { 9,   4,   1,   2 },
+    { 11,  4,   1,   2 },
+
+};

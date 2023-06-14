@@ -1,0 +1,12 @@
+/* user and group to drop privileges to */
+static const char *user  = "n0zmu";
+static const char *group = "n0zmu";
+
+static const char *colorname[NUMCOLS] = {
+	[INIT] =   "#222222",     /* after initialization */
+	[INPUT] =  "#FF5E78",   /* during input */
+	[FAILED] = "#FFC75F",   /* wrong password */
+};
+
+/* treat a cleared input like a wrong password (color) */
+static const int failonclear = 1;

@@ -3,10 +3,10 @@ static const char *user  = "n0zmu";
 static const char *group = "n0zmu";
 
 static const char *colorname[NUMCOLS] = {
-	[BACKGROUND] = "#222222",
-	[INIT] =   "#FEFF86",     /* after initialization */
-	[INPUT] =  "#99FFCD",   /* during input */
-	[FAILED] = "#FF5D5D",   /* wrong password */
+	[BACKGROUND] = "#364F6B",
+	[INIT] =   "#F5F5F5",     /* after initialization */
+	[INPUT] =  "#A1EAFB",   /* during input */
+	[FAILED] = "#FC5185",   /* wrong password */
 };
 
 /* treat a cleared input like a wrong password (color) */
